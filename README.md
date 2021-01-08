@@ -10,6 +10,8 @@ $ cd ratio
 $ go build
 ```
 
+However, you can get the built binary from [the releases](https://github.com/eze-kiel/ratio/releases).
+
 ## Usage
 
 ```
