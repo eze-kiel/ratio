@@ -38,6 +38,7 @@ $ ratio 1920 1080
 With the increase flag (`-i`):
 
 ```
+$ ratio -i 1920 1080
 %       width   height
 110     2112    1188
 120     2304    1296
