@@ -14,7 +14,7 @@ func main() {
 	flag.Parse()
 
 	if len(flag.Args()) != 2 {
-		fmt.Printf("Usage: %s [width] [height]\n", os.Args[0])
+		fmt.Printf("Usage: %s [-i] [width] [height]\n", os.Args[0])
 		os.Exit(1)
 	}
 
