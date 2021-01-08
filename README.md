@@ -13,10 +13,12 @@ $ go build
 ## Usage
 
 ```
-Usage: ratio [width] [height]
+Usage: ratio [-i] [width] [height]
 ```
 
-Example:
+Where `-i` is the increase flag.
+
+Examples:
 
 ```
 $ ratio 1920 1080
@@ -31,4 +33,20 @@ $ ratio 1920 1080
 80	1536	864
 90	1728	972
 100	1920	1080
+```
+
+With the increase flag (`-i`):
+
+```
+%       width   height
+110     2112    1188
+120     2304    1296
+130     2496    1404
+140     2688    1512
+150     2880    1620
+160     3072    1728
+170     3264    1836
+180     3456    1944
+190     3648    2052
+200     3840    2160
 ```
