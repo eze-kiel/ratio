@@ -1,6 +1,6 @@
 # ratio
 
-Generate differents ratio of an image.
+Generate differents ratios of an image.
 
 ## Installation
 
